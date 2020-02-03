@@ -1,0 +1,8 @@
+@import './settings/fonts';
+@import './settings/colors';
+@import './settings/media-queries';
+@import './settings/grid';
+
+body{
+    font-family: $font-base;
+}   

@@ -1,0 +1,11 @@
+$font-base:'Open Sans', sans-serif;
+$font-alt: 'Merriweather', serif;
+
+$breakpoints: (
+  tablet: 640px,
+  desktop: 1024px,
+  large-desktop: 1366px,
+  hd-desktop: 1640px
+);
+$max-width: 1200px;
+$columns: 12;
