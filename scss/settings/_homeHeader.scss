@@ -1,0 +1,74 @@
+.homeHeader{
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    .homeHeaderPicture{
+        height: 100vh;
+        background-image: url('/assets/Home-Hero-Image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 90% 70%;
+    }
+}
+.homeHeaderLoginBnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 50px;
+   
+    a {
+        margin-right: 25px;
+        height: 100px;
+    }
+    
+}
+.homeHeaderLogin{
+    display: flex;
+    color: $grey-color;
+    width: 90px;
+    height: 36px;
+    opacity: 1;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.homeHeaderLogin:hover{
+    border: 0.75px solid $yellow-color;
+}
+
+.homeHeaderNavi{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    }
+    .homeNavList ul{
+        display: flex;
+        list-style: none;
+        font-size: 14px;
+        color: $dark-grey-color;
+        flex-direction: row;
+        font-weight: bold;
+        padding: 0;
+        justify-content: flex-end;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 130px;
+            height: 42px;
+            margin-left: 10px;
+        }
+    }
+    
+    .homeNavList li:hover{
+        border: 0.75px solid #3C3C3C;
+    }
+
+
+
