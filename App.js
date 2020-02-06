@@ -14,11 +14,9 @@ class App extends Component{
     render(){
         return (
         <HashRouter>
-            <main>
             <Switch>
             <Route exact path='/' component={Home} />
             </Switch>
-            </main>
         </HashRouter>
         )
     }
