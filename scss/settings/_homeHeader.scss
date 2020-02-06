@@ -19,7 +19,6 @@
     height: 50px;
    
     a {
-        margin-right: 25px;
         height: 100px;
     }
     
@@ -27,18 +26,17 @@
 .homeHeaderLogin{
     display: flex;
     color: $grey-color;
-    width: 90px;
-    height: 36px;
+    padding: 10px 20px;
     opacity: 1;
     font-size: 13px;
     align-items: center;
     justify-content: center;
     letter-spacing: 0;
-    margin-left: 10px;
     margin-top: 10px;
-}
-.homeHeaderLogin:hover{
-    border: 0.75px solid $yellow-color;
+    border: 0.75px solid rgba(0,0,0,0);
+    &:hover{
+        border-color: $yellow-color;
+    }
 }
 
 .homeHeaderNavi{
@@ -49,7 +47,7 @@
     .homeNavList ul{
         display: flex;
         list-style: none;
-        font-size: 14px;
+        font-size: 16px;
         color: $dark-grey-color;
         flex-direction: row;
         font-weight: bold;
@@ -60,15 +58,56 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            width: 130px;
-            height: 42px;
+            padding: 10px 20px;
             margin-left: 10px;
+            border: 0.75px solid rgba(0,0,0,0);
+            &:hover {
+                border-color: #3C3C3C;
+            }
         }
     }
-    
-    .homeNavList li:hover{
-        border: 0.75px solid #3C3C3C;
+  
+  .decoration{
+      width: 253px;
+      height: 150px;
+      border: none;
+      margin-left: 175px ;
+      margin-bottom: 50px ;
+  }
+    .letsStartHelp{
+        display: flex;
+        height: 100px;
+        justify-content: flex-start;
+        margin-top: 100px;
+        flex-direction: column;
+
+        .letsStartWorld{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 30px;
+            color: $dark-grey-color;
+            text-align: center;
+            margin-left: 30px;
     }
+    .letsStartHelpBnt{
+        display: flex;
+        flex-direction: row;
+        .getItems{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            font-size: 24px;
+            border: 0.75px solid $dark-grey-color;
+            width: 250px;
+            height: 120px;
+            margin-left: 30px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
 
 
 
