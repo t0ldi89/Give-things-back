@@ -1,0 +1,115 @@
+.contactFormPosition{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact{
+    height: 100vh;
+    background-image: url('/assets/Background-Contact-Form.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.25;
+        flex-direction:column-reverse;
+        display: flex;
+}
+.contactForm{
+    background-color: #FFFFFFC9;
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    .contactFormItems{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .contactFormNames{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        .inputNames{
+            opacity: 0.25;
+            border: 0;
+             outline: 0;
+            background: transparent;
+            border-bottom: 1px solid $dark-grey-color;
+            margin-top: 10px;
+        }
+    }
+    .contactFormEmail{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        .inputEmail{
+            opacity: 0.25;
+            border: 0;
+             outline: 0;
+            background: transparent;
+            border-bottom: 1px solid $dark-grey-color;
+            margin-top: 10px;
+        }
+    }
+    .contactFormText {
+    
+    div{
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+    .contactFormTextInput{
+        font-size: 18px;
+        width: 440px;
+        height: 100px;
+        margin-top: 10px;
+         &::placeholder{
+            text-align: start;
+           overflow-wrap: normal;
+            opacity: 0.25;
+         }
+    }
+    .contactFormBnt{
+        font-size: 18px;
+        border: 1px solid  $dark-grey-color;
+        padding: 10px 40px;
+        align-self: flex-end;
+        margin-right: 93px;
+        margin-top: 10px;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .icones{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        margin-right: 90px;
+        margin-top: 220px;
+        .facebook{
+            background-image: url(/assets/Facebook.svg);
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+        }
+        .istagram{
+            background-image: url(/assets/Instagram.svg);
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+    }
+}
+.footer{
+display: flex;
+margin-bottom: 10px;
+align-items: flex-end;
+justify-content: flex-end;
+}
