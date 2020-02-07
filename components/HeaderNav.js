@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 const HeaderNav =()=>(
-
 <div className='homeNavList'>
 <ul>
     <li>Start</li>

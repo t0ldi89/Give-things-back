@@ -1,0 +1,34 @@
+.aboutUs{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .aboutUsText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .aboutUsHeader{
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+        .aboutUsMainText{
+            font-size: 30px;
+            width: 400px;
+            text-align: center;
+        }
+    }
+    .aboutUsPhoto{
+        background-image: url(/assets/People.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .signature{
+        width: 253px;
+        height: 150px;
+        border: none;
+        align-self: flex-end;
+        margin-right: 100px;
+        margin-top: 40px;
+    }
+}
