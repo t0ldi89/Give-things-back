@@ -17,7 +17,7 @@ const ContactForm = () =>(
        </div>
        <div className='contactFormText'>
             <div>Wpisz swoją wiadomość</div>
-            <textarea type='text' name='contactText' className='contactFormTextInput' placeholder='Lorem ipsum dolor sit amet,
+            <textarea disabled type='text' name='contactText' className='contactFormTextInput' placeholder='Lorem ipsum dolor sit amet,
              consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'></textarea>
