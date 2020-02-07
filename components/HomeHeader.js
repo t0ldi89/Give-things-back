@@ -22,11 +22,6 @@ const HomeHeader = () =>(
     </div>
     </div>
     </div>
-    
-  
-    
-
-
 </header>
 );
 
