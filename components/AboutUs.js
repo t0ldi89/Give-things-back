@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 const AboutUs = () =>(
-    <section className='container'>
+    <section className='container' id='abouUs'>
         <div className='container__row'>
             <div className='col-dsk-12 aboutUs'>
                 <div className='col-dsk-6 aboutUsText'>
