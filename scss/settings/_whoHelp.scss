@@ -1,0 +1,115 @@
+.whoHelpHeader{
+    height: 100vh;
+    p {
+        text-align: center;
+        font-size: 38px;
+    }
+    .decorationsWho{
+        width: 253px;
+        height: 50x;
+        border: none;
+    }
+    .whoHelpBnt{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 24px;
+        .fundation{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $dark-grey-color;
+            height: 50px;
+            padding: 10px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .organization{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid $dark-grey-color;
+            height: 50px;
+            padding: 10px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .local{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $dark-grey-color;
+            height: 50px;
+            padding: 10px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .display{
+        height: 400px;
+        margin-top: 20px;
+        display: flex;
+        color:$dark-grey-color;
+        .cla{
+            height: 375px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            .fundationHeader{
+                letter-spacing: 0;
+                text-align: center;
+                width: 500px;
+                font-size: 18px;
+                height: 70px;
+            }
+            .elementList{
+                margin-top: 30px;
+                display: flex;
+                display: inline-block;
+                justify-content: flex-start;
+                align-items: flex-start;
+                
+
+                li{
+                    list-style: none;
+                    margin-top: 10px;
+                    
+                }
+                .companyList{
+                    display: flex;
+                    flex-direction: row;
+                    border-bottom: 1px solid $dark-grey-color;
+                }
+                .companyName{
+                    font-family: $font-alt;
+                    font-size: 20px;
+                    font-weight: lighter;
+                }
+                .target{
+                    font-size: 16px;
+                    padding-bottom: 20px;
+                
+                }
+                .items{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center; 
+              
+
+                    li{
+                        display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+                    justify-content: flex-start; 
+                    }
+                }
+            }
+        }
+    }
+}   
