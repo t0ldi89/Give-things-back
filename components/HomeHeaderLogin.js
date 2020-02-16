@@ -4,8 +4,8 @@ import HomeReg from './HomeReg';
 
 const HeaderHomeLogin = () =>(
         <div className='homeHeaderLoginBnt'>
-        <HomeReg />
         <HeaderLogin />
+        <HomeReg />
         </div>
 )
 
