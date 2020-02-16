@@ -124,6 +124,11 @@
         font-size: 24px;
         border: 0.75px solid $dark-grey-color;
         padding: 15px;
+
+            a{
+                color: $dark-grey-color;
+            }
+        
         &:hover{
             transform: scale(1.1);
         }
