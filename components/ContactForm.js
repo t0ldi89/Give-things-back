@@ -1,6 +1,5 @@
 import React, {Component, useState} from 'react';
 
-
 const ContactForm = () =>{
 
     const [name, setName] = useState('');

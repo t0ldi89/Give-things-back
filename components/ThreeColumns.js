@@ -4,7 +4,7 @@ import FourSteps from './FourSteps';
 
 
 const ThreeColumns = () =>(
-    <section className='container'>
+    <section className='container' id='threeColumns'>
         <div className='container__row threeColumns'>
         <ThreeColumnsComponent/>
         <FourSteps/>
