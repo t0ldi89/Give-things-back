@@ -56,6 +56,10 @@
         }
     }
     .contactFormText {
+        .errMsg{
+            font-size:10px;
+            color: #ff0000;
+        }
     
     div{
         font-size: 18px;
@@ -69,6 +73,7 @@
         width: 440px;
         height: 100px;
         margin-top: 10px;
+        border-bottom:  1px solid $dark-grey-color;
          &::placeholder{
             text-align: start;
            overflow-wrap: normal;
@@ -85,6 +90,8 @@
         &:hover{
             transform: scale(1.1);
         }
+
+        
     }
     .icones{
         display: flex;
@@ -112,4 +119,14 @@ display: flex;
 margin-bottom: 10px;
 align-items: flex-end;
 justify-content: flex-end;
+}
+.errMsg{
+    font-size:10px;
+    color: #ff0000;
+}.msgSuccess{
+    font-size: 18px;
+    color: #008000;
+    text-align: center;
+    margin: 10px 0;
+    width: 175px;
 }
