@@ -1,6 +1,11 @@
 import React,{Component, useState} from 'react';
-import HeaderHomeLogin from './HomeHeaderLogin';
-import HeaderNav from './HeaderNav';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+  } from 'react-router-dom';
 
 
 
@@ -54,14 +59,20 @@ const LoginForm = () =>{
     }
 
 
-
     return(
         <>
     <header className='container'>
-        <div className='container__row homeHeader'>
-        <div className='col-dsk-11 homeHeaderNavi'>
-        <HeaderHomeLogin/>
-        <HeaderNav />
+        <div className='container__row '>
+        <div className='closeBnt'>
+        <Link to='/'style={{ textDecoration: 'none'}}>
+        
+                <div className="close-container">
+                    <div className="leftright"></div>
+                    <div className="rightleft"></div>
+                    <label className="close">close</label>
+                </div>
+         
+        </Link>
         </div>
         </div>
         </header>
