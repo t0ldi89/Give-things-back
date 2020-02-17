@@ -6,7 +6,7 @@ import {
 const HomeReg =()=>(
     <>
     <Link to='/registration'style={{ textDecoration: 'none'}}>
-    <div className='homeHeaderLogin'>Zaloguj</div>
+    <div className='homeHeaderLogin'>Załóż konto</div>
     </Link>
     </>
 )

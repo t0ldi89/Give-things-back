@@ -6,7 +6,7 @@ import {
 const HeaderLogin = () =>(
     <>
     <Link to='/login'style={{ textDecoration: 'none'}}>
-    <div className='homeHeaderLogin'>Załóż konto</div>
+    <div className='homeHeaderLogin'>Zaloguj</div>
     </Link>
     </>
 )

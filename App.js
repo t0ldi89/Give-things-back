@@ -8,6 +8,7 @@ import {
   NavLink,
 } from 'react-router-dom';
 import Home from './components/Home';
+import LoginForm from './components/LoginForm';
 
 
 class App extends Component{
@@ -16,6 +17,7 @@ class App extends Component{
         <HashRouter>
             <Switch>
             <Route exact path='/' component={Home} />
+            <Route path='/login' component={LoginForm} />
             </Switch>
         </HashRouter>
         )
