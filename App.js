@@ -9,6 +9,8 @@ import {
 } from 'react-router-dom';
 import Home from './components/Home';
 import LoginForm from './components/LoginForm';
+import RegForm from './components/RegForm';
+import LogOutForm from './components/LogOutForm';
 
 
 class App extends Component{
@@ -18,6 +20,8 @@ class App extends Component{
             <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/login' component={LoginForm} />
+            <Route path='/registration' component={RegForm} />
+            <Route path='/logout' component={LogOutForm} />
             </Switch>
         </HashRouter>
         )
