@@ -65,13 +65,11 @@ const LoginForm = () =>{
         <div className='container__row '>
         <div className='closeBnt'>
         <Link to='/'style={{ textDecoration: 'none'}}>
-        
                 <div className="close-container">
                     <div className="leftright"></div>
                     <div className="rightleft"></div>
                     <label className="close">close</label>
                 </div>
-         
         </Link>
         </div>
         </div>
@@ -91,7 +89,10 @@ const LoginForm = () =>{
                         <div className='loginErrors'>{error.pass && 'Podane hasło jest za krótkie!'}</div>           
                 </div>
                 <div className='loginFormBnt'>
+                    <Link to='/registration' style={{textDecoration:'none'}} >
                     <div>Załóz konto</div>
+                    </Link>
+                    
                     <div>Zaloguj się</div>
                 </div>
                     </div>
