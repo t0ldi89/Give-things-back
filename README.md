@@ -6,7 +6,7 @@ A site aimed at giving unused items to those in need
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Is working on](#is-working-on)
+* [Is working on]
 
 ## General info
 
