@@ -6,3 +6,8 @@ A site aimed at giving unused items to those in need
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [is working on](#work)
+
+## General info
+
+One of the final projects of the course at the Coders Lab programming school, the website is to encourage the donation of unnecessary things.
