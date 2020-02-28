@@ -6,7 +6,8 @@ A site aimed at giving unused items to those in need
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Is working on]
+* [Is working on](#is=working-on)
+
 
 ## General info
 
@@ -34,5 +35,5 @@ To run json.server:
 $ cd ../lorem
 $ json-server giveThingsBack.json
 ```
-##Is working on
+## Is working on
 cvsdcdsd
