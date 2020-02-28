@@ -37,10 +37,10 @@ $ json-server giveThingsBack.json
 ```
 ## Is working on
 * ver. 1.1 Adding the option of logging, registering  in and returning items - ### Work in progress
-* ver 1.2 Admin panel added, user account editing
-- the ability to view saved forms "Give back items"
-- granting rights to users - ### Waiting for the version above to end
-* ver 1.3 Mobile version - ### Waiting for the version above to end
+* ver 1.2 Admin panel added, user account editing:
+  *the ability to view saved forms "Give back items"
+  *granting rights to users - Waiting for the version above to end
+* ver 1.3 Mobile version - Waiting for the version above to end
 
 
 # Have Fun
